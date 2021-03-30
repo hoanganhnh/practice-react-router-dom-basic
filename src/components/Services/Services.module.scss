@@ -1,0 +1,19 @@
+.wapper {
+  background: url("../assets/img/services.jpg") no-repeat center top;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  //overlay
+  padding: 100px 0px;
+  box-shadow: inset 0 0 0 2000px #000000ab;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: #fff;
+    font-size: 40px;
+  }
+}
