@@ -9,6 +9,7 @@ import About from '../About'
 import Work from '../Work'
 import Services from '../Services'
 import Contact from '../Contact'
+import NotFound from '../NotFound'
 // import styles from './App.module.scss';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                     <Route path='/work'  component={Work} />
                     <Route path='/services'  component={Services} />
                     <Route path='/contact'  component={Contact} />
+                    <Route component={NotFound} />
                 </Switch>
             </Router>
         </>
